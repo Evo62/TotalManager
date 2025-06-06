@@ -38,10 +38,9 @@ public class OutfieldPlayer extends Player{
 
     @Override
     public String toString() {
-        return super.toString() +
-                ", Tore=" + goalScored +
-                ", Stamina=" + stamina +
-                ", Speed=" + sprintSpeed;
+        return super.toString() + " | ⚽ Outfield Stats: Goals=" + goalScored + ", Stamina=" + stamina + ", Speed=" + sprintSpeed;
     }
-    }
+
+}
+
 

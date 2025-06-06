@@ -31,11 +31,10 @@ public class Goalkeeper extends Player {
 
     @Override
     public String toString() {
-        return super.toString() +
-                " " +
-                "cleanSheets= " + cleanSheets +
-                ", reflexRaiting= " + reflexRaiting ;
+        return super.toString() + " | 🧤 Goalkeeper Stats: CleanSheets=" + cleanSheets + ", Reflex=" + reflexRaiting;
     }
+
 }
+
 
 
